@@ -31,6 +31,11 @@ public class PageController {
     public String Ed1Page() {
         return "edward1";
     }
+  
+    @GetMapping("/peter")
+    public String PeterPage() {
+        return "peter";
+    }
     
     @GetMapping("/charlie")
     public String ChPage() {
